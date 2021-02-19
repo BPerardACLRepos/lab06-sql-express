@@ -6,7 +6,6 @@ const { postNoBills } = require('./billData.js');
 app.use(cors());
 
 app.get('/yo', (req, res) => {
-
     res.json(
         {
             here: 'there',
@@ -16,8 +15,6 @@ app.get('/yo', (req, res) => {
 })
 
 app.get('/postNoBills', (req, res) => {
-
-
     res.json({ postNoBills });
 });
 
